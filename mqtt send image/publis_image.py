@@ -19,7 +19,7 @@ client = mqtt.Client()
 client.on_publish = on_publish
 client.on_connect = on_connect
 
-client.connect("s0.iotnesia.com", 1883, 60)
+client.connect("test.mosquitto.org", 1883, 60)#free broker mqtt
 #client.on_publish = on_publish
 
 #f=open("C:\Users\wildan\Desktop\1.png", "rb") #3.7kiB in same folder
