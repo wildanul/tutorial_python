@@ -33,6 +33,6 @@ client.on_connect = on_connect
 client.on_message = on_message
 client.on_subscribe = on_subscribe
 
-client.connect("s0.iotnesia.com", 1883, 60)
+client.connect("test.mosquitto.org", 1883, 60)#free broker mqtt
 
 client.loop_forever()
